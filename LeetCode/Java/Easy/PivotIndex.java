@@ -1,4 +1,3 @@
-package arrays;
 
 /**
  * 724. Find Pivot Index
