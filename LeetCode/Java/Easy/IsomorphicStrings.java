@@ -5,6 +5,12 @@
  * the characters in s can be replaced to get t. All occurrences of a character must be replaced with another character
  * while preserving the order of the character. No two characters may map to the same character, but a character may
  * map to itself
+ *
+ * Input: s = "egg", t = "add"
+ * Output: true
+ *
+ * Input: s = "foo", t = "bar"
+ * Output: false
  */
 public class IsomorphicStrings {
     public boolean isIsomorphic(String s, String t) {
