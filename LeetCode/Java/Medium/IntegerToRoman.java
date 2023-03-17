@@ -1,5 +1,5 @@
 /**
- * 13. Roman to Integer
+ * 12. Integer to Roman
  * Difficulty: Medium
  * Description: Roman numerals are represented by seven different symbols: I, V, X, L, C, D and M.
  *
