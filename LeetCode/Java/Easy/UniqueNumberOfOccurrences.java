@@ -9,16 +9,19 @@
  * Explanation: The value 1 has 3 occurrences, 2 has 2 and 3 has 1. No two values have the same number of occurrences.
  */
 public class UniqueNumberOfOccurrences {
-    Map<Integer, Integer> counts = new HashMap<>();
+    public boolean uniqueOccurrences(int[] arr) {
+        Map<Integer, Integer> counts = new HashMap<>();
         for (int num : arr) {
-        counts.put(num, counts.getOrDefault(num, 0) + 1);
-    }
+            counts.put(num, counts.getOrDefault(num, 0) + 1);
+        }
 
-    Set<Integer> frequencies = new HashSet<>();
+        Set<Integer> frequencies = new HashSet<>();
         for (Integer n : counts.keySet()) {
-        if (frequencies.contains(counts.get(n))) return false;
-        frequencies.add(counts.get(n));
-    }
+            if (frequencies.contains(counts.get(n))) return false;
+            frequencies.add(counts.get(n));
+        }
 
         return true;
+
+    }
 }
