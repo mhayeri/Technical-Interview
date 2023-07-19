@@ -13,7 +13,7 @@
  * Output: false
  * Explanation: No triplet exists.
  */
-public class ReverseWords {
+public class IncreasingTripletSubsequence {
     public boolean increasingTriplet(int[] nums) {
         int first = Integer.MAX_VALUE;
         int second = Integer.MAX_VALUE;
