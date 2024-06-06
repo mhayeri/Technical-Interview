@@ -3,8 +3,6 @@
 #   Difficulty: Medium
 #   Description: Given an integer array nums, find a subarray that has the largest sum, and return its sum.
 #
-#   The test cases are generated so that the answer will fit in a 32-bit integer.
-#
 #   Input: nums = [-2,1,-3,4,-1,2,1,-5,4]
 #   Output: 6
 #   Explanation: The subarray [4,-1,2,1] has the largest sum 6.
